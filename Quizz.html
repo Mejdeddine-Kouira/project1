@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One Piece Quick Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="QuizzCss.css">
+</head>
+<body >
+	<div class="home-box custom-box">
+		<h3>Instruction</h3>
+		<p>Total number of questions: <span class="total-questions">5</span></p>
+		<button type="button" class="btn1" onclick="startQuiz()">Start Quiz</button>
+	</div>
+
+	<div class="quiz-box custom-box hide">
+		<div class="question-num">
+				
+		</div>
+		<div class="question-text">	
+			
+		</div>
+		<div class="option-container">
+			
+		</div>
+		<div class="next-button">
+			<button type="button" class="btn1" onclick="next()">Next</button>
+		</div>
+		<div class="ans-indic">
+					
+		</div>
+	</div>
+	<div class="res-box custom-box hide">
+		<h1>Quiz Result</h1>
+		<table>
+			<tr>
+				<td>Total Question</td>
+				<td><span class="total-questions"></span></td>
+			</tr>
+			<tr>
+				<td>Attempt</td>
+				<td><span class="total-attempt"></span></td>
+			</tr>
+			<tr>
+				<td>Correct</td>
+				<td><span class="total-correct"></span></td>
+			</tr>
+			<tr>
+				<td>Wrong</td>
+				<td><span class="total-wrong"></span></td>
+			</tr>
+			<tr>
+				<td>Persentage</td>
+				<td><span class="per"></span></td>
+			</tr>
+			<tr>
+				<td>Your Score</td>
+				<td><span class="total-score"></span></td>
+			</tr>						
+		</table>
+		<button type="button" class="btn1" onclick="tryAgain()">TRY AGAIN</button>
+		<button type="button" class="btn1" onclick="goToHome()">GO TO HOME</button>		
+	</div>
+	<script type="text/javascript" src="QuizzCode.js" ></script>
+</body>
+</html>
